@@ -5,6 +5,6 @@ from sqlalchemy import create_engine, text
 engine = create_engine("sqlite:///sample.db", echo=True)  # echo show sql query
 
 
-with engine.connect() as conn:  # create cursor with sample.db
-    pass
-    # conn.execute(text("SELECT 'Hello'"))  # create sample.db
+# with engine.connect() as conn:  # create cursor with sample.db
+#     pass
+#     # conn.execute(text("SELECT 'Hello'"))  # create sample.db
