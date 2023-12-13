@@ -1,2 +1,2 @@
 # sqlalchemy
-Work with ORM
+Work with core
